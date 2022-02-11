@@ -1,0 +1,26 @@
+.table-page{
+  margin: 40px 10px 0 10px;
+  padding: 10px;
+  background: #fff;
+  .table-page__operate--edit{
+      color: coral;
+  }
+  .table-page__search{
+    margin-bottom: 20px;
+  }
+  .table-page__search__group{
+    button+button{
+      margin-left: 10px;
+    }
+  }
+  .table-page__operate--delete{
+      color: #151414;
+    }
+  .table-page__search__input{
+    width: 200px;
+  }
+}
+.ant-btn-primary{
+  background: coral!important;
+  border-color: coral!important;
+}
